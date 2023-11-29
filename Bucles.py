@@ -5,9 +5,8 @@
 '''
 
 '''1'''
-for a in range(11):
-  if a >0:
-    print(a)
+for a in range(1, 11):
+  print (a)
 
 '''2'''
 b = 1
@@ -17,9 +16,7 @@ while b <= 20:
     print(b)
     
 '''3'''
-c = 0
-for d in range(101):
-  c = c+d
-print (c)
-
-  
+suma = 0
+for c in range(1, 101):
+  suma += c
+print (suma)
